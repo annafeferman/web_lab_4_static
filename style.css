@@ -1,0 +1,24 @@
+.roof {
+    width: 0px;
+    height: 0px;
+    margin-left: 350px;
+    position: static;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(59, 228, 149);
+    z-index: 2;
+}
+
+.wall {
+    width: 200px;
+    height: 200px;
+    color: white;
+    box-sizing: border-box;
+    border-top: 30px solid rgba(29, 80, 71, 0.753);
+    border-right: 110px solid rgba(29, 80, 71, 0.753);
+    border-left: 20px solid rgba(29, 80, 71, 0.753);
+    border-bottom: 100px solid rgba(29, 80, 71, 0.753);
+    margin-left: 350px;
+    position: static;
+}
